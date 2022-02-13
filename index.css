@@ -1,0 +1,25 @@
+.container {
+  border: 1px solid #000;
+  padding: 5px;
+  height: 100px;
+  position: relative;
+}
+.rating-container {
+  width: 25%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.rating-status {
+  font-weight: 600;
+}
+.star-container {
+  display: flex;
+  justify-content: center;
+}
+.star img {
+  width: 20px;
+}
